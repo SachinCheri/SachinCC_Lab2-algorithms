@@ -56,7 +56,7 @@ public class MergeSort {
 	
 	public void sort(int arr[],int left,int right)
 	{
-		if(left < right)
+		if(left > right)
 		{
 			int mid=(left+right)/2;
 			
